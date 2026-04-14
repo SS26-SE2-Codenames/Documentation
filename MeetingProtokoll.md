@@ -33,3 +33,18 @@
 - Pläne für die kommende Sprints:
   - Sprint 2: Fertigstellen des Spiels, eventuell Implementierung kleinerer Features.
   - Sprint 3: Polishing, Bug-Fixing, eventuell Integration von Audio/ Musik.
+
+## 14.04.2026 - Stand Up Meeting
+- Technische Themen:
+  - Besprechung der implementierten branches: UI, Lobby(Frontend, Backend), Refactoring vom Server auf STOMP, Gamelogic(clue management, turn system, roles)
+  - Kurze Vorstellung des Codes durch alle Teammitglieder.
+  - Neue tickets bezüglich UI und neue Features für Sprint 2 und 3.
+- Neue Aufgabenverteilung:
+  - Alexander: Weiterführung Frontend (UI, Screen, Buttons, Navigation)
+  - Selina: Weiterführung Frontend (UI, Screen, Buttons, Navigation)
+  - Natasa: Fertigstellen STOMP Implementierung, Android Client
+  - Anna: Fertigstellen Lobby Frontend
+  - Sofia: Fertigstellen des Turn-Systems, Implementierung des Game-Loops
+  - Emre: Implementierung der Rollen (#39) oder Implementierung des Game-Loops (Eventuell Mocking des Turn-Systems)
+  - Christopher: Chat tests + Integration mit Server
+  
