@@ -11,11 +11,14 @@ We follow a `Feature Branching` workflow.
 - `misc`: (e.g., `fix/card-rendering`).
 
 ### Workflow Steps:
-1. Pull the latest changes from `develop`.
-2. Create a new branch: `git switch -c feature/your-feature-name`.
-3. Commit your changes using Conventional Commits (see below).
-4. Ensure your branch is up to date with current codebase.
-5. Push your branch and open a Pull Request (PR) to `development`.
+1. Take on a ticket.
+2. Pull the latest changes from `develop`.
+3. Create a new branch: `git switch -c feature/your-feature-name`.
+4. Commit your changes using Conventional Commits (see below).
+5. Ensure your branch is up to date with current codebase.
+6. Push your branch and open a Pull Request (PR) to `development`.
+7. Ensure PR only contains changes relevant to the ticket.
+8. If multiple changes are to be made, a new branch should be created.
 
 ## 2. Commit Message Convention
 To keep the history readable, use the following format:
