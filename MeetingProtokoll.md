@@ -52,7 +52,7 @@
 - Technische Themen & Code-Qualität:
   - Einhaltung des Google Java Style im Backend.
   - Implementierung von ktlint im Frontend für automatisierte Code-Formatierung. (Command um das zu automatisieren im README.md)
-  - Klärung des Merge-Prozesses in den ``development`` Branch. Deadline: 22.04.
+  - Klärung des Merge-Prozesses in den `development` Branch. Deadline: 22.04.
   - Kommunikation soll in der Zukunft besser werden, besonders wenn Komponenten voneinander abhängen. Kommunikation muss im Sprint 2 verstärkt werden, um Integrationen der Komponenten zu erleichtern.
   - Tickets müssen genauer und konkreter werden. 
   - Einführung neuer Epics für Sprint 2.
