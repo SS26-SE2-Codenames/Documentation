@@ -35,6 +35,7 @@ To keep the history readable, use the following format:
 - **DRY Principle**: Do not repeat code. Extract or reuse if logic has already been implemented.
 - **Language**: All code, comments, and documentation must be in English.
 - **Google Code Style**: All PRs (Backend) must fulfill Google Code Style standards.
+- **ktlint**: All PRs (Frontend) must have been linted by ktlint (command in README.md).
 - **No rebase or squash merges**
 
 ### Documentation
