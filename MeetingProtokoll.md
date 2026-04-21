@@ -48,3 +48,23 @@
   - Emre: Implementierung der Rollen (#39) oder Implementierung des Game-Loops (Eventuell Mocking des Turn-Systems)
   - Christopher: Chat tests + Integration mit Server
   
+## 22.04.2026 - Stand Up Meeting & Sprint Planung
+- Technische Themen & Code-Qualität:
+  - Einhaltung des Google Java Style im Backend.
+  - Implementierung von ktlint im Frontend für automatisierte Code-Formatierung. (Command um das zu automatisieren im README.md)
+  - Klärung des Merge-Prozesses in den ``development`` Branch. Deadline: 22.04.
+  - Kommunikation soll in der Zukunft besser werden, besonders wenn Komponenten voneinander abhängen. Kommunikation muss im Sprint 2 verstärkt werden, um Integrationen der Komponenten zu erleichtern.
+  - Tickets müssen genauer und konkreter werden. 
+  - Einführung neuer Epics für Sprint 2.
+- Neue Aufgabenverteilung & Organisation:
+  - Anna übernimmt die Button-Implementierung für die Live Demo am 23.04. Button soll zeigen, dass  Kommunikation zwischen Server und Client möglich ist. 
+- Aufteilung der Präsentation 23.04
+  - Natasa: Sprint Überblick + Kanbanboard, Tickets, Fortschritt, etc.
+  - Alexander: UI Demo + Journey Map
+  - Anna: SonarQube
+  - Anna-Christopher: Priorisierung von Tickets/ Tasks + Aktuellen Zustand vom Spiel (Unfertiges transparent machen) + Next Steps  für Sprint 2
+  - Selina: Arbeitsverteilung, GitHub Statistics
+- Sprint 2 Planung:
+  - Alte Tickets aus Sprint 1 nachholen.
+  - Neue Epics: Erweiterung des Frontends, Fertigstellung des Backends, Integration Frontend + Backend.
+  - Fokus auf das Frontend bzw. die Integrations.
