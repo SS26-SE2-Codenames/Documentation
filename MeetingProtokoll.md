@@ -68,3 +68,12 @@
   - Alte Tickets aus Sprint 1 nachholen.
   - Neue Epics: Erweiterung des Frontends, Fertigstellung des Backends, Integration Frontend + Backend.
   - Fokus auf das Frontend bzw. die Integrations.
+ 
+## 28.04.2026 - Finalisierung der Sprint Planung
+- Fixe Tickets definiert.
+- Besprechung über upcoming Tasks bis
+  - Anna: Remaining Issues aus Sprint 1 beheben
+  - Christopher Natasa: Refactoring Codebase aus Sprint 1 für sauberen Start ins 2. Sprint
+  - Alexander Selina: Start mit Sprint 2 Tickets
+  - Emre Sophia: Offene PRs erledigen 
+
