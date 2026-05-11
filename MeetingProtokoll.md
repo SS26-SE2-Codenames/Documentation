@@ -77,3 +77,12 @@
   - Alexander Selina: Start mit Sprint 2 Tickets
   - Emre Sophia: Offene PRs erledigen 
 
+## 11.05.2026 - Stand Up Meeting 
+- Besprechung der fertigen Tickets
+- Restlichen Aufgaben eingeteilt:
+  - Alexander: Weiterführung Frontend (UI, Screen, Buttons, Navigation)
+  - Selina: Weiterführung Frontend (UI Chat)
+  - Natasa: Netzwerkendpoints festlegen
+  - Sofia: Fertigstellung des Turn-Systems bis 12.05.2026 18:00
+  - Emre: Game-Loop
+  - Christopher: Clue Integration im Frontend
