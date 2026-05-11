@@ -12,7 +12,7 @@ We follow a `Feature Branching` workflow.
 
 ### Workflow Steps:
 1. Take on a ticket.
-2. Pull the latest changes from `develop`.
+2. Pull the latest changes from `development`.
 3. Create a new branch: `git switch -c feature/your-feature-name`.
 4. Commit your changes using Conventional Commits (see below).
 5. Ensure your branch is up to date with current codebase.
