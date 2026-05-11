@@ -86,3 +86,4 @@
   - Sofia: Fertigstellung des Turn-Systems bis 12.05.2026 18:00
   - Emre: Game-Loop
   - Christopher: Clue Integration im Frontend
+  - Anna: Card flipping Integration im Frontend
