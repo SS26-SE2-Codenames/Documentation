@@ -87,3 +87,18 @@
   - Emre: Game-Loop
   - Christopher: Clue Integration im Frontend
   - Anna: Card flipping Integration im Frontend
+
+## 16.05.2026 - Stand Up Meeting 
+- Besprechung der fertigen Tickets
+- Besprechen der noch zu erledigenden Tickets
+  - Game Loop kann elegant gelöst werden in dem man Gamephase im GameStateDTO einfügt, Frontend muss den GameState auslesen und winner, currentTeam, gamePhase auslesen und UI updaten
+  - Lobby und Netzwerk relevanten Issues sind fast komplett erledigt
+  - Chat im Frontend braucht ein Fix.
+- Restlichen Aufgaben eingeteilt:
+  - Alexander: Game Zustand im Frontend fertig stellen + Game over screen (simpel halten)
+  - Selina: Chat UI im Frontend fertigstellen
+  - Natasa: Endpoints, GameRecovery
+  - Sofia: Turn system wurde nicht erstellt, Spielprotokoll Feature weiter machen 
+  - Emre: Schummelfunktion überlegen, konkrete Tickets erstellen
+  - Christopher: GameStateDTO für Frontend erweitern, evtl. Clue Integration im Frontend
+  - Anna: Lobby und Game Mechanics im Frontend
