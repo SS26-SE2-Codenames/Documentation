@@ -15,27 +15,27 @@ All payloads are serialized as JSON.
 
 Connection endpoint:
 
-/ws (SockJS enabled)
+* /ws (SockJS enabled)
 
 Fallback endpoint:
 
-/ws-fallback
+* /ws-fallback
 
 Application prefix:
 
-/app
+* /app
 
 Broker prefixes:
 
-/topic, /queue
+* /topic, /queue
 
 Clients send messages to:
 
-/app/...
+* /app/...
 
 Clients subscribe to:
 
-/topic/...
+* /topic/...
 
 ---
 
@@ -45,85 +45,85 @@ Clients subscribe to:
 
 Request:
 
-GET /lobby/create?username={username}
+* GET /lobby/create?username={username}
 
 Response:
 
-`{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
 
 Purpose:
 
-Creates a lobby and returns the new lobby state.
+* Creates a lobby and returns the new lobby state.
 
 ### Join Lobby
 
 Request:
 
-GET /lobby/{lobbyCode}/join?username={username}
+* GET /lobby/{lobbyCode}/join?username={username}
 
 Response:
 
-`{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
 
 Purpose:
 
-Adds a player to a lobby and returns updated lobby state.
+* Adds a player to a lobby and returns updated lobby state.
 
 ### Leave Lobby
 
 Request:
 
-GET /lobby/{lobbyCode}/leave?username={username}
+* GET /lobby/{lobbyCode}/leave?username={username}
 
 Response:
 
-`{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
 
 Purpose:
 
-Removes a player from a lobby and returns updated lobby state.
+* Removes a player from a lobby and returns updated lobby state.
 
 ### Get Lobby Information
 
 Request:
 
-GET /lobby/{lobbyCode}
+* GET /lobby/{lobbyCode}
 
 Response:
 
-`{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
 
 Purpose:
 
-Retrieves current lobby state.
+* Retrieves current lobby state.
 
 ### Select Team / Role
 
 Request:
 
-POST /lobby/{lobbyCode}/select-position
+* POST /lobby/{lobbyCode}/select-position
 
 Payload:
 
-`{ "username": "...", "team": "RED", "role": "SPYMASTER", "isHost": true }`
+* `{ "username": "...", "team": "RED", "role": "SPYMASTER", "isHost": true }`
 
 Purpose:
 
-Assigns team and role and returns updated lobby state.
+* Assigns team and role and returns updated lobby state.
 
 ### Health Endpoint (pending merge from feature/health-endpoint)
 
 Request:
 
-GET /health
+* GET /health
 
 Response:
 
-`{ "status": "UP" }`
+* `{ "status": "UP" }`
 
 Purpose:
 
-Verifies backend availability.
+* Verifies backend availability.
 
 ---
 
@@ -133,91 +133,91 @@ Verifies backend availability.
 
 Client to server destination:
 
-/app/join
+* /app/join
 
 Payload:
 
-`{ "name": "...", "code": "ABCD" }`
+* `{ "name": "...", "code": "ABCD" }`
 
 Broadcast:
 
-/topic/lobby/{code}
+* /topic/lobby/{code}
 
 Error destination on failed join:
 
-/topic/errors/{sessionId}
+* /topic/errors/{sessionId}
 
 Purpose:
 
-Registers session and broadcasts updated player usernames.
+* Registers session and broadcasts updated player usernames.
 
 ### Start Game
 
 Client to server destination:
 
-/app/start-game
+* /app/start-game
 
 Broadcast:
 
-/topic/game/{lobbyCode}
+* /topic/game/{lobbyCode}
 
 Purpose:
 
-Sends current game state.
+* Sends current game state.
 
 ### Reveal Card
 
 Client to server destination:
 
-/app/reveal-card
+* /app/reveal-card
 
 Payload (minimum):
 
-`{ "lobbyCode": "ABCD", "position": 3, "currentTurn": "RED" }`
+* `{ "lobbyCode": "ABCD", "position": 3, "currentTurn": "RED" }`
 
 Broadcast:
 
-/topic/game/{lobbyCode}
+* /topic/game/{lobbyCode}
 
 Purpose:
 
-Reveals a card and broadcasts updated game state.
+* Reveals a card and broadcasts updated game state.
 
 ### Submit Clue
 
 Client to server destination:
 
-/app/submit-clue
+* /app/submit-clue
 
 Payload (minimum):
 
-`{ "lobbyCode": "ABCD", "word": "animal", "guessAmount": 2, "currentTurn": "BLUE" }`
+* `{ "lobbyCode": "ABCD", "word": "animal", "guessAmount": 2, "currentTurn": "BLUE" }`
 
 Broadcast:
 
-/topic/game/{lobbyCode}
+* /topic/game/{lobbyCode}
 
 Purpose:
 
-Submits clue and broadcasts updated game state.
+* Submits clue and broadcasts updated game state.
 
 ### Pass Turn
 
 Client to server destination:
 
-/app/pass-turn
+* /app/pass-turn
 
 Payload (minimum):
 
-`{ "lobbyCode": "ABCD", "currentTurn": "RED" }`
+* `{ "lobbyCode": "ABCD", "currentTurn": "RED" }`
 
 Broadcast:
 
-/topic/game/{lobbyCode}
+* /topic/game/{lobbyCode}
 
 Purpose:
 
-Ends the turn early and broadcasts updated game state.
+* Ends the turn early and broadcasts updated game state.
 
 ---
 
@@ -227,43 +227,43 @@ Ends the turn early and broadcasts updated game state.
 
 Destination:
 
-/app/chat/{lobbyId}
+* /app/chat/{lobbyId}
 
 Broadcast:
 
-/topic/chat/{lobbyId}
+* /topic/chat/{lobbyId}
 
 Purpose:
 
-Messages visible to all players.
+* Messages visible to all players.
 
 ### Team Chat
 
 Destination:
 
-/app/chat/{lobbyId}/{team}
+* /app/chat/{lobbyId}/{team}
 
 Broadcast:
 
-/topic/chat/{lobbyId}/{team}
+* /topic/chat/{lobbyId}/{team}
 
 Purpose:
 
-Messages restricted to one team.
+* Messages restricted to one team.
 
 ### Operative Chat
 
 Destination:
 
-/app/chat/{lobbyId}/{team}/operative
+* /app/chat/{lobbyId}/{team}/operative
 
 Broadcast:
 
-/topic/chat/{lobbyId}/{team}/operative
+* /topic/chat/{lobbyId}/{team}/operative
 
 Purpose:
 
-Messages restricted to operatives.
+* Messages restricted to operatives.
 
 ---
 
@@ -273,7 +273,7 @@ All communication uses JSON serialization.
 
 Example:
 
-`{ "team": "RED", "role": "OPERATIVE" }`
+* `{ "team": "RED", "role": "OPERATIVE" }`
 
 ---
 
