@@ -49,7 +49,7 @@ Request:
 
 Response:
 
-* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...], "isStarted": true }`
 
 Purpose:
 
@@ -63,7 +63,7 @@ Request:
 
 Response:
 
-* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...], "isStarted": true }`
 
 Purpose:
 
@@ -77,7 +77,7 @@ Request:
 
 Response:
 
-* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...], "isStarted": true }`
 
 Purpose:
 
@@ -91,7 +91,7 @@ Request:
 
 Response:
 
-* `{ "message": "...", "lobbyCode": "...", "playerList": [...] }`
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...], "isStarted": true }`
 
 Purpose:
 
@@ -106,6 +106,10 @@ Request:
 Payload:
 
 * `{ "username": "...", "team": "RED", "role": "SPYMASTER", "isHost": true }`
+
+Response:
+
+* `{ "message": "...", "lobbyCode": "...", "playerList": [...], "isStarted": true }`
 
 Purpose:
 
@@ -163,7 +167,7 @@ Broadcast:
 
 Purpose:
 
-* Sends current game state.
+* Sends first game state.
 
 ### Reveal Card
 
@@ -191,7 +195,7 @@ Client to server destination:
 
 Payload (minimum):
 
-* `{ "lobbyCode": "ABCD", "word": "animal", "guessAmount": 2, "currentTurn": "BLUE" }`
+* `{ "lobbyCode": "ABCD", "currentClue": {"word" = "ANIMAL", "guessAmount":2}, "currentTurn": "BLUE" }`
 
 Broadcast:
 
