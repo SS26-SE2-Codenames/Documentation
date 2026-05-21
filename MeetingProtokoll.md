@@ -102,3 +102,9 @@
   - Emre: Schummelfunktion überlegen, konkrete Tickets erstellen
   - Christopher: GameStateDTO für Frontend erweitern, evtl. Clue Integration im Frontend
   - Anna: Lobby und Game Mechanics im Frontend
+
+## 19.05.2026 - Stand Up Meeting 
+- Besprechung der fertigen Tickets
+- Besprechen der noch zu erledigenden Tickets
+- Tickets und EPICS für Sprint 3 festgelegt.
+  - Refactoring/ Maintenance tasks, Netzwerk, DB, Schummelfunktion, etc..
