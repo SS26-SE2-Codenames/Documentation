@@ -108,3 +108,22 @@
 - Besprechen der noch zu erledigenden Tickets
 - Tickets und EPICS für Sprint 3 festgelegt.
   - Refactoring/ Maintenance tasks, Netzwerk, DB, Schummelfunktion, etc..
+
+## 22.05.2026 - Meeting 
+- Besprechung was das Ziel für die Nächste Woche ist
+- Einteilung von den ersten Tasks: refactoring frontend backend, docker
+- T-Shirt sizes für die Tickets
+
+## 02.06.2026 - Stand Up Meeting 
+- Besprechung der fertigen Tickets
+- Besprechen der noch zu erledigenden Tickets
+- DB Schema hergezeigt und diskutiert
+- Einteilung der offenen Tickets
+  - Fokus auf Backend anstatt UI
+- Sprint 3 Requirements genauer analysiert
+  - Potentielle Fragen überlegt für Product Owner
+  - Ziel: Diese Woche eine Liste an implemented features von allen Mitgliedern kompilieren + Fragen konkretisieren und als Email senden
+
+
+
+
