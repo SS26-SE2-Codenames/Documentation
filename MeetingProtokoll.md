@@ -123,6 +123,19 @@
 - Sprint 3 Requirements genauer analysiert
   - Potentielle Fragen überlegt für Product Owner
   - Ziel: Diese Woche eine Liste an implemented features von allen Mitgliedern kompilieren + Fragen konkretisieren und als Email senden
+ 
+## 10.06.2026 - Stand Up Meeting 
+- Besprechung der fertigen Tickets:
+  - Refactoring, DB, Send Guess
+- Brainstorming von mögliche Solutions für bestimmte Tickets
+- Einteilung von Tasks
+  - Christopher: DB Epic fertigstellen
+  - Natasa: Docker Docs, Docker ressource limits, Player Session löschen
+  - Anna: Spielende fertigstellen, Extra Player UUID Check für Chat broadcasting, Offene Lobbies im Frontend als Menü anzeigen
+  - Emre: Schummelfunktion Epic fertigstellen
+  - Alexander: Security Chain
+  - Selina: Player UUID + rejoins nur dann erlauben, wenn der Player zu dem Lobby gehört
+
 
 
 
