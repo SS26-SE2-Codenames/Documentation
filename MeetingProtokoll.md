@@ -130,7 +130,7 @@
 - Brainstorming von mögliche Solutions für bestimmte Tickets
 - Einteilung von Tasks
   - Christopher: DB Epic fertigstellen
-  - Natasa: Docker Docs, Docker ressource limits, Player Session löschen
+  - Natasa: Sprint 3 Docs (Release + Deployment), Docker ressource limits, Player Session löschen
   - Anna: Spielende fertigstellen, Extra Player UUID Check für Chat broadcasting, Offene Lobbies im Frontend als Menü anzeigen
   - Emre: Schummelfunktion Epic fertigstellen
   - Alexander: Security Chain
