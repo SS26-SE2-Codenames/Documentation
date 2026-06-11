@@ -137,6 +137,15 @@
   - Selina: Player UUID + rejoins nur dann erlauben, wenn der Player zu dem Lobby gehört
 
 
+## 11.06.2026 - Stand Up Meeting mit product owner 
 
+1. Api: wir sollten an frontend ein response schicken error XXX wenn endpoint Zugriff nicht erlaubt ist. Soll im frontend auch angezeigt werden. 
+2. Docs: handover take over für docker. Was muss gemacht werden damit updates auf main kommt, wie kommt das auf ghcr. Dann, wie bringen wir container auf die Uni server (PR an uni server) wo ist der server. Health points, etc.
+3. Resource limits: wir setzen reserved und hard limits im compose file. Best solution ist selbst testen, worst case einfach google was ein small spring project braucht. Z.B500mb RAM und 0.5 cores.
+4. Falls wer möchte, Email an Manuel senden wenn man unsicher ist ob man meaningful contributions hat in beiden repos hat
+5. Selina muss noch contributions fixen (GitHub Problem) 
+6. Wir haben Abzüge für fehlende DoD und ungenaue tickets bekommen (sprint 2)
+7. Sprint 3 tickets müssen vollständig ergänzt werden
+8. Wir haben alle 60+ Punkte
 
 
