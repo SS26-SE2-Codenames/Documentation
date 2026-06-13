@@ -109,7 +109,7 @@ For local testing with PostgreSQL:
 
 ```bash
 cd Backend
-docker compose up --build
+docker compose up --build -d
 ```
 
 The Compose setup starts:
