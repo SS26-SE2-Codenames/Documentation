@@ -149,3 +149,20 @@
 8. Wir haben alle 60+ Punkte
 
 
+## 15.06.2026 - Stand Up Meeting 
+- Offene PRs besprochen + Security Chain PR reviewed und getestet.
+- Stand vom Projekt analysiert, offene Tasks besprochen die bis zum 17.06.2026 erledigt werden müssen:
+  - Schummelfunktion
+  - UUID Integration (Frontend) + Endpoints (Backend) + Username checks von Username auf UUID wechseln (Backend)
+  - API Error Messages anzeigen
+  - Docker Resources
+  - Endpoint Docs aktualisieren
+  - DB Docs erstellen
+- Tasks die für Sprint Review relevant sind damit wir ein Demo haben:
+  - IP Addresse im Frontend auf Uni URL (muss als PR kommen)
+  - Uni Container Volume löschen damit wir eine saubere DB haben
+  - Android Handy bereitstellen für Demo mit aktualisierte Builds
+- Tasks die bis zum Game Fair gemacht werden müssen:
+  - Home Screen Button wenn das Spiel fertig ist
+  - itch.io Page erstellen
+
