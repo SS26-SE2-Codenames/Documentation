@@ -48,7 +48,7 @@ We use Spring Boot's auto-configuration — Flyway runs automatically on applica
 ### Overview
 
 - The app persists game state as snapshots so that games survive server restarts.
-- `ON DELETE CASCADE` on all FK columns | When a lobby row is deleted, PostgreSQL automatically deletes all child rows in `player`, `game_state`, and `card`.
+- When a lobby row is deleted, PostgreSQL automatically deletes all child rows in `player`, `game_state`, and `card`.
 
 ### Trigger points — when snapshots are saved
 
