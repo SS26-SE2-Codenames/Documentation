@@ -40,8 +40,8 @@ We use Spring Boot's auto-configuration — Flyway runs automatically on applica
 
 - **Never modify** a migration that has already been applied. Flyway checksums each migration and will refuse to run if the checksum changes.
 - If you need to fix a past migration, create a **new** migration that corrects it.
-- Version numbers increase sequentially. Don't skip numbers (Flyway is fine with gaps, but sequential is cleaner).
-- If for whatever reason a script HAS to be changed and the contents of the DB can be erased, run `docker compose down -v`. This clears the volumes, allowing the DB to accept modified scripts.
+- Version numbers increase sequentially.
+- If, for whatever reason a script HAS to be changed and the contents of the DB can be erased, run `docker compose down -v`. This clears the volumes, allowing the DB to accept modified scripts.
 
 ## 2. Cascading System — Snapshot & Restore
 
