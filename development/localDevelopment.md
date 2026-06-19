@@ -36,6 +36,7 @@ Open `docker-compose.yml` and apply the following changes:
 docker compose down -v
 
 # Start the containers in the background
+.\mvnw.cmd clean package -DskipTests
 docker compose up -d --build
 
 # View real-time logs for debugging
