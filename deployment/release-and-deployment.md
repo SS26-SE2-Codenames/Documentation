@@ -1,3 +1,10 @@
+# Currently the deployment is running on Google e2-micro
+## Steps to deploy
+1. Start the VM
+2. Copy the IP address into the local.properties file in the frontend
+3. Build on devices
+
+
 # Release Management and Deployment
 
 This page explains how a new backend Docker image is created, where it is published, and how it is deployed to the university course server.
