@@ -3,7 +3,10 @@
 1. Start the VM
 2. Copy the IP address into the local.properties file in the frontend
 3. Build on devices
-
+## Notes
+* The VM has its own docker compose file locally stored. It is a copy of the compose file we have on main 30/06/2026
+* If needed to be recreated, the VM needs to have its Firewall properties accept HTTP and HTTP
+* Firewall VPC needs a new rule to accept the exposed port **53213**
 
 # Release Management and Deployment
 
