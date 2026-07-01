@@ -1,3 +1,9 @@
+# Trying to deploy on Q1 Centrifuge
+* Container runs on podman and not docker
+* docker.io/postgres is the only change in the compose file we have on the server -> docker does this by default, podman needs to know where to pull from
+* sudo podman compose up -d
+* The ports have been exposed
+
 # Currently the deployment is running on Google e2-micro
 ## Steps to deploy
 1. Start the VM
